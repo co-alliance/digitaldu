@@ -1,0 +1,164 @@
+/*
+ *	zen_du_3 
+ *  Light color theme
+ */
+
+body {
+
+	background-color: #e5e3e1;
+}
+
+a:link,
+a:active,
+a:visited,
+dd {
+
+	color: #555351;
+}
+
+div#main {
+
+	background-color: white;
+}
+
+div#content {
+
+	background-color: white;
+}
+
+div#du-title-header-inner {
+
+	background-color: #B0A689;
+	height: 70px;
+}
+
+div.header__region.region.region-header {
+
+	position: relative;
+	bottom: 1.2em;
+}
+
+span#site-title {
+
+	color: #382B2B;
+	top: 0.55em;
+}
+
+/* Search form bar */
+span#upper-header input#edit-search-block-form--2 {
+
+	position: relative;
+	left: 0.23em;
+	bottom: 0.95em;
+	background-color: #e5e3e1;
+}
+
+/* Search form button */
+span#upper-header input#edit-submit,
+span#upper-header input#edit-submit--2,
+span#upper-header input#edit-submit--3 {
+
+	background-color: #757371;
+	color: #e5e3e1;
+	bottom: 0.92em;
+}
+
+header#header.header {
+
+	background-color: #757371;
+}
+
+header#header ul.menu li a {
+
+	color: #e5e3e1;  
+}
+
+header#header ul.menu li a:hover {
+
+	color: #382B2B;
+}
+
+/* Grid/list view toggle */
+span.islandora-basic-collection-display-switch a,
+span.islandora-basic-collection-display-switch a:visited {
+
+	color: #757371;
+}
+
+/* Top level collection div */
+div.islandora-basic-collection-wrapper,
+div.islandora-basic-collection.clearfix {
+
+	background-color: #f5f3f1;
+}
+
+dd.islandora-basic-collection-caption {
+
+	background-color: #f5f3f1;
+}
+
+dd.islandora-basic-collection-caption a,
+dd.islandora-basic-collection-caption a:visited {
+
+	color: #191919;
+}
+
+/* Front page only */
+dl[class$=collection] dd.islandora-basic-collection-caption {
+
+	background-color: #bcbcbc; /*#739d4a*/ /*green 579850*/
+	border-style: solid;
+	border-top-style: none;
+	border-width: 1px;
+	border-color: #a5a3a1;
+}
+
+/* Front page only */
+dl[class$=collection] dd.islandora-basic-collection-caption a,
+dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+	color: #26292a;
+}
+
+footer {
+
+	background-color: #8b2332;
+	color: #d5d3d1;
+}
+
+footer a,
+footer a:visited {
+
+	color: blue;			
+}
+
+
+/* Block styles */
+div#content .block {
+
+	background-color: #cdcdcd;
+	color: #191919;
+}
+
+div#content .block h2 {
+
+	color: #8b2332;
+}
+
+div#content div#block-block-3 {
+;
+	background-color: white;
+}
+
+div#content div#block-block-3 h2 {
+
+	color: #8b2332;
+}
+
+dt.islandora-basic-collection-thumb a img{
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a5a3a1;
+	border-radius: 5px;
+}

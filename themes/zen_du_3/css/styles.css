@@ -1,0 +1,836 @@
+/*
+ *	zen_du_3 
+ *  Main DU theme
+ *  Copyright 2015 University of Denver
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/responsive.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+/* Page styles */
+html {
+
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+
+	background-color: white;
+}
+
+a {
+
+	color: #357998;
+}
+
+a:visited {
+
+	color: #357998;
+}
+
+div#content {
+
+	background-color: #e5e3e1;
+}
+
+header#du-header {
+
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px
+}
+
+div#du-red-header-inner {
+
+	background-color: #8b2332;
+	height: 50px;
+}
+
+span#du-logo {
+
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+
+span#du-logo a img {
+
+	height: 40px;
+	width: 140px;
+}
+
+div#du-title-header-inner {
+
+	background-color: #a8996e;
+	height: 100px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+span#site-title {
+
+	color: #382B2B;
+	font-weight: bold;
+	font-size: 2.6em;
+
+	position: relative;
+	top: 0.9em; /* convert to em */
+	left: 0.3em;
+}
+
+/* Search form */
+div#block-search-form {
+
+	float: right;
+	margin-right: 3em;
+}
+
+/* Search form bar */
+span#upper-header input#edit-search-block-form--2 {
+
+	height: 33px;
+	width: 333px;
+	position: relative;
+	left: 0.23em;
+	background-color: #e5e3e1;
+}
+
+/* Search form button */
+span#upper-header input#edit-submit,
+span#upper-header input#edit-submit--2,
+span#upper-header input#edit-submit--3 {
+
+	height: 33px;
+	width: 88px;
+	position: relative;
+	background-color: #382B2B;
+	color: #e5e3e1;
+	border-style: none;
+}
+
+/* Optional space */
+div#menubar-outer {
+
+	visibility: hidden;
+}
+
+/* Main menu */
+header#header div#block-system-main-menu {
+
+	padding-top: 0.4em;
+	padding-bottom: 0.5em;
+	padding-left: 1.1em;
+	padding-right: 0.9em;
+	margin-top: 0.15em;
+	margin-left: -0.811em;
+}
+
+header#header.header {
+
+	background-color: #757371;
+	height: 40px;
+}
+
+header#header ul.menu {
+
+	display: inline;
+	width: 57%;
+	padding-left: 0;
+}
+
+/* Main Menu item spacing */
+header#header ul.menu li {
+
+	display: inline;
+	padding-right: 1em;		
+}
+
+/* Main Menu font styles */
+header#header ul.menu li a {
+
+	color: #e5e3e1;  /*#382B2B*/
+	text-decoration: none; 		
+	font-weight: bold;
+	font-size: 0.91em;
+	font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+}
+
+header#header ul.menu li a:active {
+
+	text-decoration: underline;
+}
+
+header#header ul.menu li a:hover {
+
+	color: #382B2B;
+}
+
+div#navigation {
+
+	height: 0;
+}
+
+div#main {
+
+	background-color: #e5e3e1;
+	min-height: 600px;
+	height: auto;
+	padding-top: 0.74em;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b5b3b1;
+	/*box-shadow: 0px 0px 1px 1px #757371;*/
+}
+
+div#content div#upper-content-left {
+
+	float: left;
+	width: 39.4%;
+	margin-bottom: 0.7em;
+}
+
+div#content div#upper-content-right {
+
+	float: right;
+	width: 59.4%;
+	margin-bottom: 0.7em;
+}
+
+/* Grid/list view toggle */
+span.islandora-basic-collection-display-switch {
+
+	/*visibility: hidden;*/
+/*	position: relative;
+	top: 0.7em;*/
+	/*z-index: 1000;*/
+}
+
+/* Grid/list view toggle font */
+span.islandora-basic-collection-display-switch a,
+span.islandora-basic-collection-display-switch a:visited {
+
+	color: #757371;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.islandora-basic-collection-grid {
+
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.islandora-basic-collection-grid img {
+
+	/*width: 90%;
+	height: 200px;*/
+}
+
+div.islandora-basic-collection-wrapper {
+
+	box-shadow: 0px 0px 4px 1px #757371;
+	width: 100%;
+}
+
+/* Top level collection div styles */
+div.islandora-basic-collection.clearfix {
+
+/*	position: relative;
+	right: 29em;
+	top: 20em;*/
+
+	background-color: #d5d3d1;
+	border-radius: 5px;
+	/*box-shadow: 0px 0px 4px 1px #757371;*/
+}
+
+dt.islandora-basic-collection-thumb a img,
+dl[class$=collection] dt.islandora-basic-collection-thumb {  
+
+	width: 12.3542em;
+	height: 15.44275em;
+}
+
+/* Front page only */
+dl[class$=collection] dt.islandora-basic-collection-thumb a img {
+
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+/* Front page only */
+dl[class$=collection] dd.islandora-basic-collection-caption a,
+dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 4px;
+	font-family: 'Ubuntu', sans-serif;
+	/*font-weight: bold;*/
+}
+
+/* Front page only */
+dl[class$=collection] dd.islandora-basic-collection-caption {
+
+	background-color: #757371; /*#739d4a*/ /*green 579850*/
+	height: auto;
+	min-height: 35px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+
+	width: 12.3542em;
+}
+
+dd.islandora-basic-collection-caption a,
+dd.islandora-basic-collection-caption a:visited {
+
+	color: #300000;
+	text-decoration: none;
+}
+
+dd.islandora-basic-collection-caption {
+
+	background-color: #d5d3d1;
+}
+
+div.islandora-basic-collection-object.islandora-basic-collection-list-item {
+
+	margin-left: 30px;
+}
+
+footer {
+
+	background-color: #757371;
+	padding-top: 1.3em;
+	color: #d5d3d1;
+}
+
+footer a,
+footer a:visited {
+
+	color: #8b2332;			
+}
+
+
+/* Block styles */
+div#content .block {
+
+	border-radius: 3px;
+	box-shadow: 0px 0px 4px 1px #757371;
+
+	background-color: #bcbcbc;
+	color: #191919;
+	overflow: hidden;
+}
+
+div#content .block h2 {
+
+	color: #8b2332;
+	font-size: 1.3em;
+}
+
+div#content .block {
+
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Welcome text */
+div#content div#block-block-1 {
+
+	height: 245px;	
+	padding: 0.6em;
+	font-size: 0.85em;
+	line-height: 1.6em;
+	margin-bottom: 0;
+}
+
+/* Slider */
+div#content div#block-block-2 {
+
+	width: 700px;
+	background-color: #e5e3e1;
+	margin-bottom: 0;
+}
+
+/* Slider image */
+div#content div#block-block-2 img {
+
+/*	height: 350px;
+	max-height: 350px;
+	width: 700px;*/
+/*	margin-top: -25px;
+	border-radius: 5px;*/
+}
+
+/* Jssor slider div */
+div#slider1_container img {
+
+	border-radius: 3px;
+}
+
+/* Browse Collections header block */
+div#content div#block-block-3 {
+
+	width: 100%;
+	background-color: #e5e3e1;
+	box-shadow: none;
+	margin-bottom: 0;
+}
+
+div#content div#block-block-3 h2 {
+
+	margin-left: 0.9em;
+	font-size: 1.6em;
+	color: #8b2332;
+	margin-top: 0;
+	margin-bottom: 0.4em;
+}
+
+/* Responsive styles ------------------------------------------------------------------------------------------------------------------------*/
+
+/* Font and TN image size */
+@media only screen and (min-width: 960px) and (max-width: 1024px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.8em;
+		line-height: 1.65em;
+	}
+
+	dt.islandora-basic-collection-thumb a img,
+	dl[class$=collection] dt.islandora-basic-collection-thumb {
+
+		width: 11.3542em;
+		height: 14.19275em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption {
+
+		width: 11.3542em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption a,
+	dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+		font-size: 0.97em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) { 
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 300px;
+	}
+
+	span#upper-header input#edit-submit,
+	span#upper-header input#edit-submit--2,
+	span#upper-header input#edit-submit--3 {
+
+		width: 80px;
+	}
+
+	dt.islandora-basic-collection-thumb a img,
+	dl[class$=collection] dt.islandora-basic-collection-thumb {
+
+		width: 9.8542em;
+		height: 12.31775em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption {
+
+		width: 9.8542em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption a,
+	dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 210px;
+	}
+
+	span#upper-header input#edit-submit,
+	span#upper-header input#edit-submit--2,
+	span#upper-header input#edit-submit--3 {
+
+		width: 70px;
+	}
+
+	header#header ul.menu li a {
+
+		font-weight: bold;
+		font-size: 0.81em;
+	}
+
+	div#content div#upper-content-left {
+
+		width: 31.1%;
+	}
+
+	div#content div#upper-content-right {
+
+		width: 67.1%;
+	}
+
+	div#content div#block-block-1 {
+
+		padding: 0.8em;
+		height: 245px;
+	}
+
+	/* Slider */
+	div#content div#block-block-2 {
+
+/*		height: 262px;
+		background-color: #e5e3e1;*/
+	}
+
+	/* Dev dummy image for slider */
+	div#content div#block-block-2 img {
+
+/*		height: 262px;
+		max-height: 262px;
+		width: 100%;
+		margin-top: -25px;
+		border-radius: 5px;*/
+	}
+
+	dt.islandora-basic-collection-thumb a img,
+	dl[class$=collection] dt.islandora-basic-collection-thumb {
+
+		width: 8.1em;
+		height: 10.125em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption {
+
+		width: 8.1em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption a,
+	dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) { /* Flop */
+
+	header#header ul.menu li a {
+
+		font-weight: bold;
+		font-size: 0.81em;
+	}
+
+	span#site-title {
+
+		font-size: 2.3em;
+		left: 40px;
+	}
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 300px;
+		margin-top: 60px;
+	}
+
+	div#content div#block-block-1 {
+
+		font-size: 0.9em;
+		line-height: 1.5em;
+	}
+
+	dt.islandora-basic-collection-thumb a img,
+	dl[class$=collection] dt.islandora-basic-collection-thumb {
+
+		width: 6.55em;
+		height: 8.1875em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption {
+
+		width: 6.55em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption a,
+	dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	header#header ul.menu li a {
+
+		font-weight: bold;
+		font-size: 0.81em;
+	}
+
+	span#site-title {
+
+		font-size: 2.3em;
+		left: 55px;
+	}
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 245px;
+		margin-top: 60px;
+	}
+
+	div#content div#block-block-1 {
+
+		font-size: 0.8em;
+		line-height: 1.7em;
+	}
+
+	/* Slider */
+	div#content div#block-block-2 {
+
+/*		height: 230px;
+		background-color: #e5e3e1;*/
+	}
+
+	/* Dev dummy image for slider */
+	div#content div#block-block-2 img {
+
+/*		height: 230px;
+		max-height: 230px;
+		width: 100%;
+		margin-top: -25px;
+		border-radius: 5px;*/
+	}
+
+	dt.islandora-basic-collection-thumb a img,
+	dl[class$=collection] dt.islandora-basic-collection-thumb {
+
+		width: 6em;
+		height: 7.5em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption {
+
+		width: 6em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption a,
+	dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+	header#header ul.menu li a {
+
+		font-weight: bold;
+		font-size: 0.7em;
+	}
+
+	header#header ul.menu li {
+
+		padding-right: 0.4em;		/* Main Menu item spacing */
+	}
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 165px;
+		margin-top: 60px;
+	}
+
+	div#content div#block-block-1 {
+
+		font-size: 0.77em;
+		line-height: 1.39em;
+	}
+
+	/* Slider */
+	div#content div#block-block-2 {
+
+/*		height: 200px;
+		background-color: #e5e3e1;*/
+	}
+
+	/* Dev dummy image for slider */
+	div#content div#block-block-2 img {
+/*
+		height: 200px;
+		max-height: 200px;
+		width: 100%;
+		margin-top: -25px;
+		border-radius: 5p*/x;
+	}
+
+	dt.islandora-basic-collection-thumb a img,
+	dl[class$=collection] dt.islandora-basic-collection-thumb {
+
+		width: 6em;
+		height: 7.5em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption {
+
+		width: 6em;
+	}
+
+	dl[class$=collection] dd.islandora-basic-collection-caption a,
+	dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
+
+		font-size: 0.75em;
+	}
+}
+
+/* Flop */
+@media only screen and (min-width: 320px) and (max-width: 600px) { 	
+
+	div#du-title-header-inner {
+
+		background-color: #a8996e;
+		height: 150px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 165px;
+		margin-top: 60px;
+	}
+
+	span#upper-header input#edit-submit,
+	span#upper-header input#edit-submit--2,
+	span#upper-header input#edit-submit--3 {
+
+		width: 70px;
+	}
+
+	div#content div#upper-content-left {
+
+		display: block;
+		width: 100%;
+	}
+
+	div#content div#upper-content-right {
+
+		display: block;
+		width: 100%;
+	}
+}
+
+/* Welcome text font */
+@media only screen and (min-width: 925px) and (max-width: 960px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.79em;
+		line-height: 1.51em;
+	}
+}
+
+@media only screen and (min-width: 890px) and (max-width: 925px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.78em;
+		line-height: 1.51em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 890px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.76em;
+		line-height: 1.39em;
+	}
+}
+
+@media only screen and (min-width: 725px) and (max-width: 768px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.69em;
+		line-height: 1.28em;
+	}
+}
+
+@media only screen and (min-width: 675px) and (max-width: 725px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.66em;
+		line-height: 1.28em;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 675px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.68em;
+		line-height: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 365px) and (max-width: 400px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.85em;
+		line-height: 1.2em;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 365px) { 
+
+	div#content div#block-block-1 {
+
+		font-size: 0.8em;
+		line-height: 1.15em;
+	}
+}
+
+/* Browser specific updates */
+@-moz-document url-prefix() { 
+	 div#BRtoolbar {
+
+		position: relative;
+		left: -465px;
+		right: 0;
+	}
+
+	div.islandora-basic-collection-wrapper,
+	div#content div#block-block-3, 
+	ul.tabs-primary,
+	.warning,
+	.messages--warning {
+
+		float: left;
+	}
+}
+
+
+
+
