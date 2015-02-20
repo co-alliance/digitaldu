@@ -215,6 +215,14 @@ div#content div#upper-content-right {
 	margin-bottom: 0.7em;
 }
 
+div.region-upper-content-left,
+div.region-upper-content-right {
+
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px 1px #757371;
+}
+
 /* Grid/list view toggle */
 span.islandora-basic-collection-display-switch {
 
@@ -335,9 +343,6 @@ footer a:visited {
 
 /* Block styles */
 div#content .block {
-
-	border-radius: 3px;
-	box-shadow: 0px 0px 4px 1px #757371;
 
 	background-color: #bcbcbc;
 	color: #191919;
