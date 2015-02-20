@@ -29,27 +29,16 @@ div#content {
 div#du-title-header-inner {
 
 	background-color: #B0A689;
-	height: 70px;
-}
-
-div.header__region.region.region-header {
-
-	position: relative;
-	bottom: 1.2em;
 }
 
 span#site-title {
 
 	color: #382B2B;
-	top: 0.55em;
 }
 
 /* Search form bar */
 span#upper-header input#edit-search-block-form--2 {
 
-	position: relative;
-	left: 0.23em;
-	bottom: 0.95em;
 	background-color: #e5e3e1;
 }
 

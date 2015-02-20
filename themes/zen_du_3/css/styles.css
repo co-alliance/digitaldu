@@ -74,8 +74,8 @@ span#du-logo a img {
 div#du-title-header-inner {
 
 	background-color: #a8996e;
-	height: 100px;
 	font-family: 'Ubuntu', sans-serif;
+	height: 70px;
 }
 
 span#site-title {
@@ -85,8 +85,14 @@ span#site-title {
 	font-size: 2.6em;
 
 	position: relative;
-	top: 0.9em; /* convert to em */
-	left: 0.3em;
+	left: 0.2em;
+	top: 0.55em;
+}
+
+div.header__region.region.region-header {
+
+	position: relative;
+	bottom: 1.2em;
 }
 
 /* Search form */
@@ -103,6 +109,7 @@ span#upper-header input#edit-search-block-form--2 {
 	width: 333px;
 	position: relative;
 	left: 0.23em;
+	bottom: 0.95em;
 	background-color: #e5e3e1;
 }
 
@@ -545,14 +552,18 @@ div#content div#block-block-3 h2 {
 
 	span#site-title {
 
-		font-size: 2.3em;
-		left: 40px;
+		font-size: 2.9em;
 	}
 
 	span#upper-header input#edit-search-block-form--2 {
 
 		width: 300px;
 		margin-top: 60px;
+	}
+
+	div.header__region.region.region-header {
+
+		bottom: 0;
 	}
 
 	div#content div#block-block-1 {
@@ -590,14 +601,18 @@ div#content div#block-block-3 h2 {
 
 	span#site-title {
 
-		font-size: 2.3em;
-		left: 55px;
+		font-size: 2.9em;
 	}
 
 	span#upper-header input#edit-search-block-form--2 {
 
 		width: 245px;
 		margin-top: 60px;
+	}
+
+	div.header__region.region.region-header {
+
+		bottom: 0;
 	}
 
 	div#content div#block-block-1 {
@@ -655,10 +670,20 @@ div#content div#block-block-3 h2 {
 		padding-right: 0.4em;		/* Main Menu item spacing */
 	}
 
+	span#site-title {
+
+		font-size: 2.9em;
+	}
+
 	span#upper-header input#edit-search-block-form--2 {
 
 		width: 165px;
 		margin-top: 60px;
+	}
+
+	div.header__region.region.region-header {
+
+		bottom: 0;
 	}
 
 	div#content div#block-block-1 {
@@ -681,7 +706,7 @@ div#content div#block-block-3 h2 {
 		max-height: 200px;
 		width: 100%;
 		margin-top: -25px;
-		border-radius: 5p*/x;
+		border-radius: 5px;*/
 	}
 
 	dt.islandora-basic-collection-thumb a img,
