@@ -479,7 +479,7 @@ div#content div#block-block-3 h2 {
 
 	span#upper-header input#edit-search-block-form--2 {
 
-		width: 210px;
+		width: 260px;
 	}
 
 	span#upper-header input#edit-submit,
@@ -547,7 +547,7 @@ div#content div#block-block-3 h2 {
 	}
 }
 
-@media only screen and (min-width: 480px) and (max-width: 600px) { /* Flop */
+@media only screen and (min-width: 480px) and (max-width: 600px) { 
 
 	header#header ul.menu li a {
 
@@ -555,20 +555,14 @@ div#content div#block-block-3 h2 {
 		font-size: 0.81em;
 	}
 
-	span#site-title {
-
-		font-size: 2.9em;
-	}
-
 	span#upper-header input#edit-search-block-form--2 {
 
-		width: 300px;
-		margin-top: 60px;
+		width: 180px;
 	}
 
 	div.header__region.region.region-header {
 
-		bottom: 0;
+		bottom: 1.2em;
 	}
 
 	div#content div#block-block-1 {
@@ -604,11 +598,6 @@ div#content div#block-block-3 h2 {
 		font-size: 0.81em;
 	}
 
-	span#site-title {
-
-		font-size: 2.9em;
-	}
-
 	span#upper-header input#edit-search-block-form--2 {
 
 		width: 245px;
@@ -617,7 +606,7 @@ div#content div#block-block-3 h2 {
 
 	div.header__region.region.region-header {
 
-		bottom: 0;
+		bottom: 0.1em;
 	}
 
 	div#content div#block-block-1 {
@@ -682,7 +671,6 @@ div#content div#block-block-3 h2 {
 
 	span#upper-header input#edit-search-block-form--2 {
 
-		width: 165px;
 		margin-top: 60px;
 	}
 
@@ -733,20 +721,18 @@ div#content div#block-block-3 h2 {
 	}
 }
 
-/* Flop */
 @media only screen and (min-width: 320px) and (max-width: 600px) { 	
 
-	div#du-title-header-inner {
+/*	div#du-title-header-inner {
 
 		background-color: #a8996e;
 		height: 150px;
 		font-family: 'Ubuntu', sans-serif;
-	}
+	}*/
 
 	span#upper-header input#edit-search-block-form--2 {
 
-		width: 165px;
-		margin-top: 60px;
+		/*width: 165px;*/
 	}
 
 	span#upper-header input#edit-submit,
@@ -766,6 +752,22 @@ div#content div#block-block-3 h2 {
 
 		display: block;
 		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	div#du-title-header-inner {
+
+		background-color: #a8996e;
+		height: 150px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+	span#upper-header input#edit-search-block-form--2 {
+
+		width: 165px;
+		margin-top: 60px;
 	}
 }
 

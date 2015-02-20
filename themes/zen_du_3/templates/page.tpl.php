@@ -36,9 +36,7 @@
 <div id="page">
 
   <header class="header" id="header" role="banner">
-    <div id="header-content-outer">
       <?php print render($page['header']); ?>
-    </div>
   </header>
 
   <div id="main">
