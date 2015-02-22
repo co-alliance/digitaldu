@@ -10,8 +10,10 @@
 
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 
-<script src="../sites/all/themes/zen_du_3/js/jquery.min.js"></script>
-<script src="../sites/all/themes/zen_du_3/js/jssor.slider.mini.js"></script>
+<!-- <script src="../sites/all/themes/zen_du_3/js/jquery.min.js"></script>
+<script src="../sites/all/themes/zen_du_3/js/jssor.slider.mini.js"></script> -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jssor.slider.mini.js"></script>
 <script>
     jQuery(document).ready(function ($) {
         var options = { $AutoPlay: true };

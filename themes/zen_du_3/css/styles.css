@@ -358,28 +358,37 @@ div#content .block h2 {
 div#content .block {
 
 	font-family: 'Ubuntu', sans-serif;
+
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px 1px #757371;
 }
 
 /* Welcome text */
-div#content div#block-block-1 {
+/*div#content div#block-block-1*/
+div#content div#block-block-3 {
 
 	height: 245px;	
 	padding: 0.6em;
 	font-size: 0.85em;
 	line-height: 1.6em;
 	margin-bottom: 0;
+	box-shadow: none;
 }
 
 /* Slider */
-div#content div#block-block-2 {
+/*div#content div#block-block-2*/
+div#content div#block-block-4 {
 
 	width: 700px;
 	background-color: #e5e3e1;
 	margin-bottom: 0;
+	box-shadow: none;
 }
 
 /* Slider image */
-div#content div#block-block-2 img {
+/*div#content div#block-block-2 img*/
+div#content div#block-block-4 img {
 
 /*	height: 350px;
 	max-height: 350px;
@@ -395,15 +404,18 @@ div#slider1_container img {
 }
 
 /* Browse Collections header block */
-div#content div#block-block-3 {
+/*div#content div#block-block-3*/
+div#content div#block-block-5 {
 
 	width: 100%;
 	background-color: #e5e3e1;
 	box-shadow: none;
 	margin-bottom: 0;
+	box-shadow: none;
 }
 
-div#content div#block-block-3 h2 {
+/*div#content div#block-block-3 h2*/
+div#content div#block-block-5 h2 {
 
 	margin-left: 0.9em;
 	font-size: 1.6em;
