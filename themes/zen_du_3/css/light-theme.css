@@ -111,14 +111,14 @@ dl[class$=collection] dd.islandora-basic-collection-caption a:visited {
 
 footer {
 
-	background-color: #757371;
+	background-color: #8b2332;
 	color: #d5d3d1;
 }
 
-footer a,
+footer a:link,
 footer a:visited {
 
-	color: #8b2332;			
+	color: blue;			
 }
 
 
@@ -135,7 +135,7 @@ div#content .block h2 {
 }
 
 div#content div#block-block-5 {
-;
+
 	background-color: white;
 }
 
@@ -150,4 +150,15 @@ dt.islandora-basic-collection-thumb a img{
 	border-width: 1px;
 	border-color: #a5a3a1;
 	border-radius: 5px;
+}
+
+div#block-system-powered-by {
+
+	display: inline;
+}
+
+div#block-widgets-s-socialmedia-profile-buttons {
+
+	display: inline;
+	float: right;
 }
