@@ -113,7 +113,7 @@
   </div>
 
   <?php print render($page['highlighted']); ?>
-  <?php print $breadcrumb; ?>
+  <!--?php print $breadcrumb; ?-->
   <?php print render($page['footer']); ?>
 
 </div>
