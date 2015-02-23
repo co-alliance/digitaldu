@@ -9,6 +9,7 @@
 ?>
 
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
 <!-- <script src="../sites/all/themes/zen_du_3/js/jquery.min.js"></script>
 <script src="../sites/all/themes/zen_du_3/js/jssor.slider.mini.js"></script> -->
@@ -21,7 +22,6 @@
     });
 </script>
 
-<!-- DU Header -->
   <header class="header" id="du-header">
     <div id="du-red-header-inner">
       <span id="du-logo">
