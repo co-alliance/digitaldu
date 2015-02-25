@@ -73,19 +73,28 @@ span#du-logo a img {
 
 div#du-title-header-inner {
 
-	background-color: #a8996e;
-	font-family: 'Ubuntu', sans-serif;
 	height: 70px;
+
+	background: #b7ad70; /* Old browsers */
+	background: -moz-linear-gradient(left,  #b7ad70 0%, #c9c190 60%, #d5cea6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b7ad70), color-stop(60%,#c9c190), color-stop(100%,#d5cea6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* IE10+ */
+	background: linear-gradient(to right,  #b7ad70 0%,#c9c190 60%,#d5cea6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7ad70', endColorstr='#d5cea6',GradientType=1 ); /* IE6-9 */
 }
 
 span#site-title {
 
 	color: #382B2B;
 	font-weight: bold;
-	font-size: 2.6em;
+	font-size: 2.2em;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.2em;
 
 	position: relative;
-	left: 0.25em;
+	left: 0.35em;
 	top: 0.55em;
 }
 
