@@ -215,14 +215,14 @@ div#main {
 div#content div#upper-content-left {
 
 	float: left;
-	width: 39.51%;
+	width: 41.53%;
 	margin-bottom: 0.7em;
 }
 
 div#content div#upper-content-right {
 
 	float: right;
-	width: 59.51%;
+	width: 57.43%;
 	margin-bottom: 0.7em;
 }
 
@@ -392,7 +392,7 @@ div#content div#block-block-3 {
 /*div#content div#block-block-2*/
 div#content div#block-block-4 {
 
-	width: 700px;
+	width: 100%;
 	background-color: #e5e3e1;
 	margin-bottom: 0;
 	box-shadow: none;
