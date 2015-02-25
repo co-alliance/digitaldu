@@ -14,8 +14,8 @@
 
 <!-- <script src="../sites/all/themes/zen_du_3/js/jquery.min.js"></script>
 <script src="../sites/all/themes/zen_du_3/js/jssor.slider.mini.js"></script> -->
-<script src="http://localhost:8181/sites/all/themes/zen_du_3/js/jquery.min.js"></script>
-<script src="http://localhost:8181/sites/all/themes/zen_du_3/js/jssor.slider.mini.js"></script>
+<script src="http://dev-digitaldu.coalliance.org/sites/digitaldu7.coalliance.org/themes/zen_du_3/js/jquery.min.js"></script>
+<script src="http://dev-digitaldu.coalliance.org/sites/digitaldu7.coalliance.org/themes/zen_du_3/js/jssor.slider.mini.js"></script>
 <script>
     jQuery(document).ready(function ($) {
         var options = { $AutoPlay: true };
