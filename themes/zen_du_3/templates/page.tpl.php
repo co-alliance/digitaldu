@@ -31,7 +31,7 @@
     </div>
 
     <div id="du-title-header-inner">
-      <span id="site-title">DIGITAL DU</span>
+      <span id="site-title">Digital DU</span>
       <span id="upper-header"><?php print render($page['upper_header']); ?></span>
     </div>
   </header>
