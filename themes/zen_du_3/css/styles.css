@@ -87,15 +87,15 @@ div#du-title-header-inner {
 
 span#site-title {
 
-	color: #382B2B;
+	color: #300000;
 	font-weight: bold;
 	font-size: 2.2em;
 	font-family: 'Open Sans', sans-serif;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 
 	position: relative;
 	left: 0.35em;
-	top: 0.55em;
+	top: 0.63em;
 }
 
 div.header__region.region.region-header {
