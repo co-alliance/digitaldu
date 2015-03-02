@@ -133,11 +133,14 @@ span#upper-header input#edit-submit--3,
 input#edit-submit {
 
 	height: 33px;
-	width: 88px;
+	/*width: 88px;*/
+	width: auto;
 	position: relative;
 	background-color: #382B2B;
 	color: #e5e3e1;
 	border-style: none;
+	padding-right: 0.9em;
+	padding-left: 0.9em;
 }
 
 /* Optional space */
@@ -484,7 +487,7 @@ div#content div#block-block-5 h2 {
 	span#upper-header input#edit-submit--3,
 	input#edit-submit {
 
-		width: 80px;
+		/*width: 80px;*/
 	}
 
 	div#content div#upper-content-left {
@@ -529,7 +532,7 @@ div#content div#block-block-5 h2 {
 	span#upper-header input#edit-submit--3,
 	input#edit-submit {
 
-		width: 70px;
+		/*width: 70px;*/
 	}
 
 	header#header ul.menu li a {
@@ -787,7 +790,7 @@ div#content div#block-block-5 h2 {
 	span#upper-header input#edit-submit--3,
 	input#edit-submit {
 
-		width: 70px;
+		/*width: 70px;*/
 	}
 
 	div#content div#upper-content-left {
