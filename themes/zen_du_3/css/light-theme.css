@@ -46,7 +46,8 @@ span#upper-header input#edit-search-block-form--2 {
 /* Search form button */
 span#upper-header input#edit-submit,
 span#upper-header input#edit-submit--2,
-span#upper-header input#edit-submit--3 {
+span#upper-header input#edit-submit--3,
+input#edit-submit {
 
 	background-color: #614A4A;
 	color: #e5e3e1;
