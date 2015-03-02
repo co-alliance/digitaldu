@@ -81,12 +81,21 @@ span.islandora-basic-collection-display-switch a:visited {
 div.islandora-basic-collection-wrapper,
 div.islandora-basic-collection.clearfix {
 
+	background-color: white;
+	box-shadow: none;
+}
+
+/* Front page only */
+body.front div.islandora-basic-collection-wrapper,
+body.front div.islandora-basic-collection.clearfix {
+
 	background-color: #f5f3f1;
+	box-shadow: 0px 0px 4px 1px #b5b3b1;
 }
 
 dd.islandora-basic-collection-caption {
 
-	background-color: #f5f3f1;
+	background-color: white;
 }
 
 dd.islandora-basic-collection-caption a,
@@ -139,20 +148,20 @@ section.region-sidebar-first .block h2 {
 	color: #8b2332;
 }
 
-/*div#content div#block-block-1*/
-div#content div#block-block-3 {
+div#content div#block-block-1
+/*div#content div#block-block-3*/ {
 
 	background-color: #cdcdcd;
 }
 
-/*div#content div#block-block-3*/
-div#content div#block-block-5 {
+div#content div#block-block-3
+/*div#content div#block-block-5*/ {
 
 	background-color: white;
 }
 
-/*div#content div#block-block-3 h2*/
-div#content div#block-block-5 h2 {
+div#content div#block-block-3 h2
+/*div#content div#block-block-5 h2 */{
 
 	color: #8b2332;
 }
