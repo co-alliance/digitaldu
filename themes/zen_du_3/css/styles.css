@@ -176,7 +176,7 @@ header#header ul.menu {
 /* Main Menu item spacing */
 header#header ul.menu li {
 
-	display: inline;dt.islandora-basic-collection-thumb a img
+	display: inline;
 	padding-right: 1em;		
 }
 
@@ -383,8 +383,8 @@ section.region-sidebar-first .block h2 {
 }
 
 /* Welcome text */
-div#content div#block-block-1
-/*div#content div#block-block-3*/ {
+/*div#content div#block-block-1*/
+div#content div#block-block-3 {
 
 	height: 245px;	
 	padding: 0.6em;
@@ -395,8 +395,8 @@ div#content div#block-block-1
 }
 
 /* Slider */
-div#content div#block-block-2
-/*div#content div#block-block-4*/ {
+/*div#content div#block-block-2*/
+div#content div#block-block-4 {
 
 	width: 100%;
 	background-color: #e5e3e1;
@@ -405,8 +405,8 @@ div#content div#block-block-2
 }
 
 /* Slider image */
-div#content div#block-block-2 img
-/*div#content div#block-block-4 img*/ {
+/*div#content div#block-block-2 img*/
+div#content div#block-block-4 img {
 
 /*	height: 350px;
 	max-height: 350px;
@@ -428,8 +428,8 @@ div#slider1_container img {
 }
 
 /* Browse Collections header block */
-div#content div#block-block-3
-/*div#content div#block-block-5*/ {
+/*div#content div#block-block-3*/
+div#content div#block-block-5 {
 
 	width: 100%;
 	background-color: #e5e3e1;
@@ -438,8 +438,8 @@ div#content div#block-block-3
 	box-shadow: none;
 }
 
-div#content div#block-block-3 h2
-/*div#content div#block-block-5 h2 */{
+/*div#content div#block-block-3 h2*/
+div#content div#block-block-5 h2 {
 
 	margin-left: 0.9em;
 	font-size: 1.6em;

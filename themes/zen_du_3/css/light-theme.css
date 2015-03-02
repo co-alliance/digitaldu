@@ -174,20 +174,20 @@ section.region-sidebar-first .block h2 {
 	color: #8b2332;
 }
 
-div#content div#block-block-1
-/*div#content div#block-block-3*/ {
+/*div#content div#block-block-1*/
+div#content div#block-block-3 {
 
 	background-color: #cdcdcd;
 }
 
-div#content div#block-block-3
-/*div#content div#block-block-5*/ {
+/*div#content div#block-block-3*/
+div#content div#block-block-5 {
 
 	background-color: white;
 }
 
-div#content div#block-block-3 h2
-/*div#content div#block-block-5 h2*/ {
+/*div#content div#block-block-3 h2*/
+div#content div#block-block-5 h2 {
 
 	color: #8b2332;
 }
