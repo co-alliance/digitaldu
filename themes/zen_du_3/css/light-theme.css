@@ -129,7 +129,7 @@ footer a:visited {
 div#content .block,
 section.region-sidebar-first .block {
 
-	background-color: #f5f3f1;
+	background-color: #cdcdcd;
 	color: #191919;
 }
 
@@ -163,6 +163,12 @@ dt.islandora-basic-collection-thumb a img{
 	border-width: 1px;
 	border-color: #a5a3a1;
 	border-radius: 5px;
+}
+
+div#block-islandora-solr-basic-facets {  	
+
+	padding: 0.8em;
+	background-color: #f5f3f1;
 }
 
 div#block-system-powered-by {
