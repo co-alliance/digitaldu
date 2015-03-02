@@ -129,7 +129,7 @@ footer a:visited {
 div#content .block,
 section.region-sidebar-first .block {
 
-	background-color: #cdcdcd;
+	background-color: #f5f3f1;
 	color: #191919;
 }
 
@@ -137,6 +137,12 @@ div#content .block h2,
 section.region-sidebar-first .block h2 {
 
 	color: #8b2332;
+}
+
+/*div#content div#block-block-1*/
+div#content div#block-block-3 {
+
+	background-color: #cdcdcd;
 }
 
 /*div#content div#block-block-3*/
