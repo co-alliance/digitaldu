@@ -408,6 +408,12 @@ div#content div#block-block-4 img {
 	border-radius: 5px;*/
 }
 
+div#block-islandora-solr-basic-facets {  	
+
+	padding: 0.8em;
+	background-color: #e5e3e1;
+}
+
 /* Jssor slider div */
 div#slider1_container img {
 
