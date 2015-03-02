@@ -303,6 +303,8 @@ dl[class$=collection].islandora-basic-collection-object dt img  {
 
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 /* Front page only */
