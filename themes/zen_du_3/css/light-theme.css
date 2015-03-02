@@ -124,22 +124,26 @@ footer a:visited {
 
 
 /* Block styles */
-div#content .block {
+div#content .block,
+section.region-sidebar-first .block {
 
 	background-color: #cdcdcd;
 	color: #191919;
 }
 
-div#content .block h2 {
+div#content .block h2,
+section.region-sidebar-first .block h2 {
 
 	color: #8b2332;
 }
 
+/*div#content div#block-block-3*/
 div#content div#block-block-5 {
 
 	background-color: white;
 }
 
+/*div#content div#block-block-3 h2*/
 div#content div#block-block-5 h2 {
 
 	color: #8b2332;
