@@ -448,6 +448,18 @@ div#content div#block-block-5 h2 {
 	margin-bottom: 0.4em;
 }
 
+div#block-islandora-solr-advanced {
+
+	padding: 0.7em;
+	position: relative;
+	bottom: 3em;
+}
+
+div#content > div.view.view-advanced-search.view-id-advanced_search.view-display-id-page {
+
+	visibility: hidden; /* Hide the headers on the advanced search page */
+}
+
 /* Responsive styles ------------------------------------------------------------------------------------------------------------------------*/
 
 /* Font and TN image size */
